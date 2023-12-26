@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+}
+#root {
+  min-height: 100vh;
+  background-color: #ebd9d9;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem 2rem;
+  column-gap: min(2.4rem, 5vw);
+  a:link,
+  a:visited {
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+  }
+}
